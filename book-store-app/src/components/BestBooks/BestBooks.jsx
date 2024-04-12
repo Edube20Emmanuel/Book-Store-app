@@ -1,27 +1,30 @@
 import React from "react";
-import Img1 from "../../assets/books/book2.jpg";
-import Img2 from "../../assets/books/book1.jpg";
-import Img3 from "../../assets/books/book3.jpg";
+import Img1 from "../../assets/books/book5.jpeg";
+import Img2 from "../../assets/books/book1.jpeg";
+import Img3 from "../../assets/books/book4.jpeg";
 import { FaStar } from "react-icons/fa";
 
 const BooksData = [
   {
     id: 1,
-    img: Img1,
-    title: "His life",
-    description: "My nbjhdbb bc nnbcn nbcbbxc  hbcvhbjvc cvjhhcb",
+    img: Img2,
+    title: "Beneath the Lion's Gaze and other books",
+    description:
+      "It is a story about the lengths human beings will go in pursuit of freedom and the human price of a national revolution.East Africa Mbelle",
   },
   {
     id: 2,
-    img: Img2,
-    title: "Who's there",
-    description: "My nbjhdbb bc nnbcn nbcbbxc  hbcvhbjvc cvjhhcb",
+    img: Img1,
+    title: "TRIBAL NGOMA",
+    description:
+      "The Ngoni trace their origins to the Nguni and Zulu people of kwaZulu-Natal in South Africa.",
   },
   {
     id: 3,
     img: Img3,
-    title: "Lost Boy",
-    description: "My nbjhdbb bc nnbcn nbcbbxc  hbcvhbjvc cvjhhcb",
+    title: "TALES OF EAST AFRICA",
+    description:
+      "Tales of East Africa is a collection of 22 traditional tales from Kenya, Uganda, and Tanzania.",
   },
 ];
 
@@ -40,10 +43,12 @@ const BestBooks = ({ handleOrderPopup }) => {
           </p>
           <h1 className="text-3xl front-bold">Best Books</h1>
           <p className="text-xs text-gray-400">
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Obcaecati
-            dolor, sunt at deleniti doloremque repudiandae accusantium delectus
-            dolores quam. Dolores repudiandae beatae explicabo accusantium quae
-            doloribus ex eum aliquid voluptatem.
+            The best of our books that will help you get more information about
+            our diverse cultures in East Africa. These books talk about the
+            tribes and their different cultures and most importantly the The
+            Kiswahili language which is widely spoken in East Africa. "Sayidiya
+            kuweka East Africa Mbelle". Please support the East African language
+            all over the world.
           </p>
         </div>
         {/* card section */}

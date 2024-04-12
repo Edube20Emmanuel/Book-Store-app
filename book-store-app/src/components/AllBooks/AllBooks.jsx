@@ -1,44 +1,70 @@
 import React from "react";
-import Book1 from "../../assets/books/book1.jpg";
-import Book2 from "../../assets/books/book2.jpg";
-import Book3 from "../../assets/books/book3.jpg";
+import Book1 from "../../assets/books/book1.jpeg";
+import Book2 from "../../assets/books/book5.jpeg";
+import Book3 from "../../assets/books/book4.jpeg";
 import { FaStar } from "react-icons/fa6";
+import Book4 from "../../assets/books/book3.jpeg";
+import Book6 from "../../assets/books/book6.jpeg";
+import Book7 from "../../assets/books/book7.jpeg";
+import Book8 from "../../assets/books/book8.jpeg";
+import Book9 from "../../assets/books/book9.jpeg";
 
 const BooksData = [
   {
     id: 1,
     img: Book1,
-    title: "Who' there",
+    title: "Beneath the Lion's Gaze and other books",
     rating: 5.0,
-    author: "Someone",
+    author: "Jennifer Nansubuga Makumbi and Others",
   },
   {
     id: 2,
     img: Book2,
-    title: "His Life",
+    title: "TRIBAL NGOMA",
     rating: 4.0,
-    author: "John",
+    author: "Wm.T.BIRCHMAN",
   },
   {
     id: 3,
     img: Book3,
-    title: "Lost boys",
+    title: "TALES OF EAST AFRICA",
     rating: 4.7,
-    author: "Lost Girl",
+    author: "Jamilla Okubo",
   },
   {
     id: 2,
-    img: Book2,
-    title: "His Life",
+    img: Book4,
+    title: "Swahili of East Africa Activity Book",
     rating: 4.0,
-    author: "John",
+    author: "Lumumba",
   },
   {
     id: 3,
-    img: Book3,
-    title: "Lost boys",
+    img: Book6,
+    title: "KISWAHILI",
     rating: 4.7,
-    author: "Lost Girl",
+    author: "Okwok Kenneth",
+  },
+  {
+    id: 3,
+    img: Book7,
+    title: "EARLY EAST AFRICA",
+    rating: 4.7,
+    author: "Bernth Lindfors",
+  },
+  {
+    id: 3,
+    img: Book8,
+    title: "Mkuki Na Nyota",
+    rating: 4.7,
+    author: "Peter Kimani",
+  },
+  {
+    id: 2,
+    img: Book9,
+    title: "ANTHOLOGY EAST AFRICAN LITERATURE",
+    rating: 4.0,
+    author: "Omuntu",
   },
 ];
 
@@ -60,10 +86,11 @@ const AllBooks = () => {
             </p>
             <h1 className="text-3xl front-bold">Top Books</h1>
             <p className="text-xs text-gray-400">
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Obcaecati
-              dolor, sunt at deleniti doloremque repudiandae accusantium
-              delectus dolores quam. Dolores repudiandae beatae explicabo
-              accusantium quae doloribus ex eum aliquid voluptatem.{" "}
+              Our top most books tell a story of thr diverse and interesting
+              culture from the Mountains of Kirimanjaro,Rwenzori,Elgon,Kenya and
+              the shores of Lake Victoria. They move further to talk about the
+              amaizing cultures in Rwanda, Burundi, South Sudan and the tropical
+              Forests of Congo.{" "}
             </p>
           </div>
           {/* card */}

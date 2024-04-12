@@ -4,20 +4,20 @@ import Slider from "react-slick";
 const TestimonialData = [
   {
     id: 1,
-    name: "Victor",
-    text: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Eaque reiciendis inventore iste ratione ex alias quis magni at optio",
+    name: "Odongkara Oscar",
+    text: "This is very excellent and perfect.Thamks for doing this great work to promote our culture. Afwoyo",
     img: "https://picsum.photos/101/101",
   },
   {
     id: 1,
-    name: "Satya Narayan",
-    text: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Eaque reiciendis inventore iste ratione ex alias quis magni at optio",
+    name: "Najuma Topista",
+    text: "Asante sana, I have learnt a lot of Kiswahili from these books. I have also learnt about my culture as a Muganda",
     img: "https://picsum.photos/102/102",
   },
   {
     id: 1,
-    name: "Sachin Tendulkar",
-    text: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Eaque reiciendis inventore iste ratione ex alias quis magni at optio",
+    name: "Mutumba Benjamin",
+    text: "I personally feel the great job of this app. Lets just push East Africa culture forward. Weebalee",
     img: "https://picsum.photos/103/103",
   },
 ];
@@ -79,10 +79,8 @@ const Testimonials = () => {
           </p>
           <h1 className="text-3xl front-bold">Testimonials</h1>
           <p className="text-xs text-gray-400">
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Obcaecati
-            dolor, sunt at deleniti doloremque repudiandae accusantium delectus
-            dolores quam. Dolores repudiandae beatae explicabo accusantium quae
-            doloribus ex eum aliquid voluptatem.{" "}
+            The point where our clients inform us about their experiences. And
+            we always make changes according to our clients' testimonies{" "}
           </p>
         </div>
 

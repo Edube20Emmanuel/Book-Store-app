@@ -1,38 +1,40 @@
 import React, { useState } from "react";
-import Book1 from "../../assets/books/book1.jpg";
-import Book2 from "../../assets/books/book2.jpg";
-import Book3 from "../../assets/books/book3.jpg";
+import Book1 from "../../assets/books/book1.jpeg";
+import Book2 from "../../assets/books/book5.jpeg";
+import Book3 from "../../assets/books/book4.jpeg";
 import Vector from "../../assets/website/blue-pattern.png";
 
 const ImageList = [
   {
     id: 1,
     img: Book1,
-    title: "His Life will forever be Changed",
+    title: "Beneath the Lion's Gaze and other books",
     description:
-      "lorem His Life will forever be Changed dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+      "It is a story about the lengths human beings will go in pursuit of freedom and the human price of a national revolution.East Africa Mbelle",
   },
   {
     id: 2,
     img: Book2,
-    title: "Who's there",
+    title: "TRIBAL NGOMA",
     description:
-      "Who's there lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+      "The Ngoni trace their origins to the Nguni and Zulu people of kwaZulu-Natal in South Africa. The displacement of the Ngoni people in the great scattering following the Zulu wars had repercussions in social reorganization as far north as Malawi and Zambia.",
   },
   {
     id: 3,
     img: Book3,
-    title: "Lost Boy",
+    title: "TALES OF EAST AFRICA",
     description:
-      "Lost Boy, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+      "Tales of East Africa is a collection of 22 traditional tales from Kenya, Uganda, and Tanzania. Welcome to a world of magical adventure—a place where a boy spares the life of a fearsome monster, a flock of doves brings a girl back from the dead, and a hare wreaks havoc among all the other animals.",
   },
 ];
 
 const Hero = ({ handleOrderPopup }) => {
   const [imageId, setImageId] = useState(Book1);
-  const [title, setTitle] = useState("His Life will forever be Changed");
+  const [title, setTitle] = useState(
+    "Kintu,Beneath The Lion's Gaze and other books"
+  );
   const [description, setDescription] = useState(
-    "lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+    "Experience the cultur and language of East African tribes at your our confirt. Africa Mashariki."
   );
 
   const bgImage = {
@@ -73,7 +75,7 @@ const Hero = ({ handleOrderPopup }) => {
                   className="bg-clip-text text-transparent
                 bg-gradient-to-b from-primary text-right text-sm to-secondary"
                 >
-                  by Edube
+                  BY GULOBA EMMANUEL EDUBE
                 </p>{" "}
               </h1>
               <p

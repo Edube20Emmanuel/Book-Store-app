@@ -35,10 +35,10 @@ const Banner = () => {
                 Library at your fingertips
               </h1>
               <p className="text-sm text-gray-500 tracking-wide leading-5">
-                Lorem ipsum, dolor sit amet consectetur adipisicing elit. Alias
-                blanditiis quas enim pariatur illum amet doloribus magni impedit
-                tempora, nobis iusto deserunt, sapiente dignissimos provident
-                vel modi aspernatur maxime mollitia.
+                We are caple of providing you with a variety of of books at your
+                comfirt at anytime, anyplace in the world at your own
+                convinience. Please just make an order and grab yourself a book
+                to read.
               </p>
               <div className="flex flex-col gap-4">
                 <div className="flex items-center gap-4">
